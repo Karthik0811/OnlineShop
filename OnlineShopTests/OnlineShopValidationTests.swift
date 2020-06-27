@@ -53,12 +53,5 @@ class OnlineShopValidationTests: XCTestCase {
         XCTAssertTrue(isStateCodeEmpty, "Please fill all State")
     }
     
-    func testCalculationLogic_WhenStateCodeMatchesValue_ShouldReturnTrue(){
-        
-        
-        
-        
-    }
-    
 
 }
