@@ -6,12 +6,11 @@
 //  Copyright © 2020 Karthik Ravikumar. All rights reserved.
 //
 
-import Foundation
 
-class Tax {
+final class Tax {
     
-    var state: String
-    var taxableAmount: Double
+    private var state: String
+    private var taxableAmount: Double
     
     //MARK: - Init Method
     

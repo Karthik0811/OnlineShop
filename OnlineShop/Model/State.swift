@@ -6,13 +6,12 @@
 //  Copyright © 2020 Karthik Ravikumar. All rights reserved.
 //
 
-import Foundation
 
-class State {
+final class State {
     private var name:String?
     private var states = ["UT","NV","TX","AL","CA"]
 
-    
+    //MARK: - Init Method
     init?(name:String?) {
         
         guard let stateName = name, !stateName.isEmpty, states.contains(stateName) else{
@@ -21,6 +20,8 @@ class State {
         
         self.name = stateName
     }
+    
+    //MARK: - State Name related method
     
     func getStateName() -> String {
         return name!

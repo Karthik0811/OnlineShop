@@ -33,6 +33,7 @@ final class CartPresenter: CartPresenterInterface{
         }
         
         let finalPrice = getFinalCartValue(for: product, state: state, price: price)
+        view?.display(finalPrice: String(finalPrice))
         return finalPrice
     }
     

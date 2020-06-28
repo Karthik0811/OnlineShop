@@ -6,12 +6,14 @@
 //  Copyright © 2020 Karthik Ravikumar. All rights reserved.
 //
 
-import Foundation
+import UIKit
 
-class Product {
+final class Product {
     
     private var name:String?
     private var quantity:Int?
+    
+    //MARK: - Init Method
     
     init?(name:String?, quantity: Int?) {
         
@@ -24,6 +26,8 @@ class Product {
         self.name = productName
         self.quantity = productQuantity
     }
+    
+    //MARK: - Product related methods
     
     func getProductName() -> String {
         return name!
