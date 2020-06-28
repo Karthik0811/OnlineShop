@@ -47,7 +47,7 @@ class ProductTests: XCTestCase {
     
     func testProduct_InvalidQuantity_ShouldNotInitialize(){
         //Arrange
-        let sut = Product(name:"Apple", quantity: 0)
+        let sut = Product(name:"Apple", quantity: -1)
         //Assert
         XCTAssertNil(sut,"Quantity should not initialize")
     }

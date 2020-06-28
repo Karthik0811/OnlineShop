@@ -20,7 +20,7 @@ final class Product {
         guard let productName = name, !productName.isEmpty else{
             return nil
         }
-        guard let productQuantity = quantity, productQuantity != 0 else{
+        guard let productQuantity = quantity, productQuantity > 0 else{
             return nil
         }
         self.name = productName
