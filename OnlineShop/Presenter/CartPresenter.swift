@@ -15,6 +15,8 @@ final class CartPresenter: CartPresenterInterface{
         self.view = view
     }
     
+    //MARK: - Final price calculation method
+    
     func getFinalPrice(with name: String?, quantity: Int?, price: Double?, state: String?) -> Double {
         
         guard let product = Product(name: name, quantity: quantity) else {
@@ -36,6 +38,8 @@ final class CartPresenter: CartPresenterInterface{
         view?.display(finalPrice: String(finalPrice))
         return finalPrice
     }
+    
+    //MARK: - Private Methods
     
     private func getFinalCartValue(for product: Product, state: State, price:Price) -> Double {
         

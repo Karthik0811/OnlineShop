@@ -11,15 +11,6 @@ import XCTest
 
 class ProductTests: XCTestCase {
     
-
-    override func setUpWithError() throws {
-        super.setUp()
-    }
-
-    override func tearDownWithError() throws {
-        super.tearDown()
-    }
-
     //MARK: - Test cases for Product Name property
     
     func testProduct_WhenProductNameIsNil_ShouldNotInitialize(){

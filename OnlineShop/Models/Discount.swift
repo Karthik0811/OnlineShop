@@ -7,11 +7,6 @@
 //
 
 
-//protocol DiscountProtocol {
-//   func getDiscountRate() -> Double
-//   func getDiscountedAmount() -> Double
-//}
-
 final class Discount {
     private var amount: Double
     

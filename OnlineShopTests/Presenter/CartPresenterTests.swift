@@ -25,6 +25,8 @@ class CartPresenterTests: XCTestCase {
         sut = nil
     }
 
+    //MARK: - Test cases
+    
     func testCartPresenter_WhenNameAndQuantityIsNil_ShouldThrowError(){
         //Act
         let expectedErrorTitle = "Please fill all product/product count"

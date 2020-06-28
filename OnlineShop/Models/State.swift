@@ -21,7 +21,7 @@ final class State {
         self.name = stateName
     }
     
-    //MARK: - State Name related method
+    //MARK: - State code related method
     
     func getStateName() -> String {
         return name!

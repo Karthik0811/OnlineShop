@@ -11,14 +11,6 @@ import XCTest
 
 class DiscountTests: XCTestCase {
 
-    override func setUpWithError() throws {
-        
-    }
-
-    override func tearDownWithError() throws {
-        
-    }
-
     func testDiscount_WhenAmountPassed_ShouldInitialize(){
         //Arrange
         let sut = Discount(for : 1000)

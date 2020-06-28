@@ -21,7 +21,6 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
         guard let initialViewController = storyboard.instantiateViewController(withIdentifier: "ProductViewController")as? ProductViewController else { return }
-        
         initialViewController.presenter = CartPresenter(view: initialViewController)
         self.window?.rootViewController = initialViewController
         self.window?.makeKeyAndVisible()

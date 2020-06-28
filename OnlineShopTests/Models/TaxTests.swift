@@ -11,14 +11,6 @@ import XCTest
 
 class TaxTests: XCTestCase {
 
-
-    override func setUpWithError() throws {
-    }
-
-    override func tearDownWithError() throws {
-        
-    }
-    
     func testTax_WhenValidStateAndAmountIsPassed_ShouldInitialize(){
         //Arrange
         let sut = Tax(for: "CA", taxableAmount: 3000)

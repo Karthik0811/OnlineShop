@@ -86,7 +86,7 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4E06D93E24A6C5B500073124 /* Model */ = {
+		4E06D93E24A6C5B500073124 /* Models */ = {
 			isa = PBXGroup;
 			children = (
 				4E3B411E24A56A8800BAE06C /* Product.swift */,
@@ -95,7 +95,7 @@
 				4E742B5624A8D2CB00E8210B /* Price.swift */,
 				4E742B4724A88A4D00E8210B /* Discount.swift */,
 			);
-			path = Model;
+			path = Models;
 			sourceTree = "<group>";
 		};
 		4E06D93F24A6C5BF00073124 /* View */ = {
@@ -130,7 +130,7 @@
 				4E3B40CC24A5490E00BAE06C /* AppDelegate.swift */,
 				4E3B40CE24A5490E00BAE06C /* SceneDelegate.swift */,
 				4E742B5E24A8FECF00E8210B /* Extension */,
-				4E06D93E24A6C5B500073124 /* Model */,
+				4E06D93E24A6C5B500073124 /* Models */,
 				4E06D93F24A6C5BF00073124 /* View */,
 				4E742B4124A7925500E8210B /* Presenter */,
 				4E742B4224A7927900E8210B /* Protocol */,
@@ -145,16 +145,15 @@
 		4E3B40E224A5491200BAE06C /* OnlineShopTests */ = {
 			isa = PBXGroup;
 			children = (
-				4E742B3624A74F5B00E8210B /* Model */,
+				4E742B3624A74F5B00E8210B /* Models */,
 				4E742B4324A792A700E8210B /* Presenter */,
-				4E742B5824A8EEFB00E8210B /* CartPresenterTests.swift */,
-				4E742B4424A792F200E8210B /* Mocks */,
+				4E742B4424A792F200E8210B /* Mock */,
 				4E3B40E524A5491200BAE06C /* Info.plist */,
 			);
 			path = OnlineShopTests;
 			sourceTree = "<group>";
 		};
-		4E742B3624A74F5B00E8210B /* Model */ = {
+		4E742B3624A74F5B00E8210B /* Models */ = {
 			isa = PBXGroup;
 			children = (
 				4E3B40E324A5491200BAE06C /* ProductTests.swift */,
@@ -163,7 +162,7 @@
 				4E742B5424A8C58300E8210B /* PriceTests.swift */,
 				4E742B4524A8892A00E8210B /* DiscountTests.swift */,
 			);
-			path = Model;
+			path = Models;
 			sourceTree = "<group>";
 		};
 		4E742B4124A7925500E8210B /* Presenter */ = {
@@ -185,16 +184,17 @@
 		4E742B4324A792A700E8210B /* Presenter */ = {
 			isa = PBXGroup;
 			children = (
+				4E742B5824A8EEFB00E8210B /* CartPresenterTests.swift */,
 			);
 			path = Presenter;
 			sourceTree = "<group>";
 		};
-		4E742B4424A792F200E8210B /* Mocks */ = {
+		4E742B4424A792F200E8210B /* Mock */ = {
 			isa = PBXGroup;
 			children = (
 				4E742B5A24A8F5A700E8210B /* CartViewMock.swift */,
 			);
-			path = Mocks;
+			path = Mock;
 			sourceTree = "<group>";
 		};
 		4E742B5324A8C39E00E8210B /* StoryBoard */ = {
